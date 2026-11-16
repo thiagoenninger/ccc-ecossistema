@@ -1,7 +1,6 @@
 /*
- * Estilos globais mínimos do esqueleto técnico (E01).
- * Tokens, temas e fontes do Design System entram na E02.
- * Cores de sistema são usadas de propósito: nenhum valor visual do DS é improvisado aqui.
+ * Estilos globais do aplicativo. Valores visuais vêm exclusivamente dos tokens do Design System
+ * (@ccc/design-tokens/styles.css, importado no ponto de entrada de cada página).
  */
 *,
 *::before,
@@ -17,8 +16,12 @@ body,
 }
 
 body {
-  color-scheme: dark light;
-  background: Canvas;
-  color: CanvasText;
-  font-family: system-ui, sans-serif;
+  background: var(--color-surface-page);
+  color: var(--color-text-primary);
+  font: var(--type-body);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
 }

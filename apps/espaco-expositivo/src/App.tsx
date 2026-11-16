@@ -6,8 +6,8 @@ export function App() {
       <p className={styles.eyebrow}>Centro Cultural de Cubatão</p>
       <h1 className={styles.title}>Espaço Expositivo</h1>
       <p className={styles.note}>
-        Esqueleto técnico da Etapa E01. Tela provisória, sem identidade visual: o Design System
-        Galeria Contemporânea v2.0 será aplicado a partir da Etapa E02.
+        Fundação visual da Etapa E02: tokens, temas e fontes do Design System Galeria Contemporânea
+        v2.0 aplicados. As telas museográficas começam nas próximas etapas.
       </p>
     </main>
   );

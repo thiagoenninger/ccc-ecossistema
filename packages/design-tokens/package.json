@@ -1,0 +1,22 @@
+{
+  "name": "@ccc/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tokens, temas e fontes do Design System Galeria Contemporânea v2.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./styles.css": "./src/styles.css"
+  },
+  "scripts": {
+    "tokens:build": "node scripts/build-tokens.ts",
+    "tokens:check": "node scripts/build-tokens.ts --check",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-sans": "5.3.0",
+    "@fontsource/ibm-plex-sans-condensed": "5.3.0",
+    "@fontsource/source-serif-4": "5.3.1"
+  }
+}

@@ -2,25 +2,26 @@
   display: grid;
   min-height: 100%;
   place-content: center;
-  gap: 1rem;
-  padding: 3.75rem;
+  gap: var(--space-4);
+  padding: var(--space-10);
 }
 
 .eyebrow {
   margin: 0;
-  letter-spacing: 0.14em;
+  color: var(--color-text-accent);
+  font: var(--type-eyebrow);
+  letter-spacing: var(--tracking-eyebrow);
   text-transform: uppercase;
-  font-size: 0.875rem;
 }
 
 .title {
   margin: 0;
-  font-size: 3rem;
-  font-weight: 500;
+  font: var(--type-display-lg);
 }
 
 .note {
   margin: 0;
   max-width: 62ch;
-  opacity: 0.8;
+  color: var(--color-text-secondary);
+  font: var(--type-reading);
 }

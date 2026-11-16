@@ -75,3 +75,12 @@ Situação atualizada: N-01, N-02 e N-03 foram **resolvidas** (ver tabela v1.1 a
 | K-01 | `npm audit` reporta 7 avisos moderados: `minimatch` (DoS via padrões glob) dentro de `typescript-eslint`. Só dependências de desenvolvimento; `npm audit --omit=dev` não reporta avisos | Baixo (ferramenta de lint, sem padrões glob externos) | Não aplicar `npm audit fix --force` (rebaixaria o typescript-eslint). Reavaliar a cada atualização do typescript-eslint |
 | K-02 | Scripts da raiz não repassam argumentos extras ao Vite                                                                                                                                  | Baixo                                                 | Usar `npm run dev -w @ccc/espaco-expositivo -- --port 5174`                                                             |
 | K-03 | Nada foi executado em Windows nem em PowerShell pelo Claude (ambiente Linux)                                                                                                            | Médio                                                 | Validação local obrigatória no checklist da etapa                                                                       |
+
+## Problemas conhecidos da E02
+
+| ID   | Descrição                                                                                                              | Impacto | Ação                                                                         |
+| ---- | ---------------------------------------------------------------------------------------------------------------------- | ------- | ---------------------------------------------------------------------------- |
+| K-04 | `surface-tile-no-image` não tem valor para o tema Papel no JSON; adotado `#262C2E` (hipótese, ADR-012)                 | Baixo   | Revalidar na E04 com o Design System                                         |
+| K-05 | Peso 400 da IBM Plex Sans Condensed é empacotado, mas não consta como usado nos estilos do DS (~20 kB)                 | Baixo   | Remover se continuar sem uso na E09                                          |
+| K-06 | Contraste dos pares de cores semânticas não foi medido automaticamente (apenas conferência visual nas capturas)        | Médio   | Script de contraste na E04 (P-04); WCAG 2.2 AA não é declarado como conforme |
+| K-07 | Conferência visual feita em Chrome headless/Linux; renderização de fontes e cores no Windows e em tablet real pendente | Médio   | Validação local (checklist) e hardware (P-08)                                |

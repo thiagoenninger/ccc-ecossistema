@@ -6,7 +6,7 @@ Versão 1.0 — 16/11/2026 (estado após a E01).
 ccc-ecossistema/
 ├── apps/
 │   └── espaco-expositivo/        # @ccc/espaco-expositivo (Vite + React)
-├── packages/                     # vazio na E01; criado sob demanda
+├── packages/                     # design-tokens (E02); demais criados sob demanda
 ├── docs/
 ├── CLAUDE.md
 ├── README.md

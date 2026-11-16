@@ -15,3 +15,4 @@ Cada ADR documenta uma decisão relevante: contexto, problema, alternativas, dec
 | [ADR-009](ADR-009-imagens-de-demonstracao.md)       | Imagens de demonstração (opção C)                                     | Aceita (E03)             |
 | [ADR-010](ADR-010-escopo-mvp-tv-fora.md)            | TV do Espaço Expositivo fora do MVP                                   | Aceita                   |
 | [ADR-011](ADR-011-fluxo-git.md)                     | Fluxo Git e Conventional Commits                                      | Aceita                   |
+| [ADR-012](ADR-012-pipeline-de-tokens.md)            | Pipeline de tokens (JSON oficial → CSS) e decisões da E02             | Aceita (E02)             |
