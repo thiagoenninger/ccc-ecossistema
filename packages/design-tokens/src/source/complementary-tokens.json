@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0-c1",
+  "note": "Tokens complementares ao design-tokens.json oficial. O JSON oficial NÃO é modificado (ADR-004). Cada grupo registra sua origem.",
+  "captionGradient": {
+    "source": "Handoff Técnico §3.3 e §11 (ADR-004: a metodologia do Handoff prevalece sobre as paradas percentuais do JSON)",
+    "colorRgb": "8 10 11",
+    "plateauOpacity": 0.68,
+    "plateauMargin": 10,
+    "fadeLength": 56,
+    "basePadding": 14,
+    "textMarginLeft": 18,
+    "textMarginRight": 46,
+    "textBlockHeight": { "hero": 142, "medium": 74, "small": 66 },
+    "metaOpacity": 0.88
+  },
+  "focusRing": {
+    "source": "Handoff Técnico §3.3 (anel duplo: interno rgba(8,10,11,.85) 3 px + externo turquesa-400 3 px)",
+    "innerColor": "rgb(8 10 11 / 0.85)",
+    "outerColor": "turquesa-400",
+    "width": 3
+  },
+  "selectedBar": {
+    "source": "design-tokens.json (color.selected-bar: âmbar-500, 4 px)",
+    "color": "ambar-500",
+    "height": 4
+  },
+  "semanticColors": {
+    "source": "Decisão registrada na E02: o JSON define tile-no-image apenas para Galeria; o PDF (p. 14) e o Handoff §2 mantêm o mesmo tratamento do acervo nos dois temas",
+    "tokens": {
+      "surface-tile-no-image": { "galeria": "#262C2E", "papel": "#262C2E" }
+    }
+  },
+  "colorScheme": {
+    "source": "Decisão registrada na E02: informa ao navegador o esquema de cores nativo de cada tema",
+    "galeria": "dark",
+    "papel": "light"
+  }
+}

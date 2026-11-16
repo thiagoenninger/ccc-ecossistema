@@ -5,7 +5,13 @@ import globals from 'globals';
 
 export default tseslint.config(
   {
-    ignores: ['**/dist/**', '**/coverage/**', '**/node_modules/**', 'docs/**'],
+    ignores: [
+      '**/dist/**',
+      '**/coverage/**',
+      '**/node_modules/**',
+      'docs/**',
+      'packages/design-tokens/src/generated/**',
+    ],
   },
   js.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
@@ -33,7 +39,7 @@ export default tseslint.config(
     },
   },
   {
-    files: ['**/*.config.{js,ts}'],
+    files: ['**/*.config.{js,ts}', '**/scripts/**/*.ts', 'packages/design-tokens/src/**/*.ts'],
     languageOptions: { globals: globals.node },
   },
   {

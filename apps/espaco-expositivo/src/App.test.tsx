@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react';
 import { describe, expect, it } from 'vitest';
 import { App } from './App';
 
-describe('App (esqueleto E01)', () => {
+describe('App (fundação visual E02)', () => {
   it('exibe o título principal da aplicação', () => {
     render(<App />);
 
@@ -17,9 +17,9 @@ describe('App (esqueleto E01)', () => {
     expect(screen.getByRole('main')).toBeInTheDocument();
   });
 
-  it('informa que a identidade visual é provisória', () => {
+  it('informa que a fundação visual está aplicada', () => {
     render(<App />);
 
-    expect(screen.getByText(/Esqueleto técnico da Etapa E01/)).toBeInTheDocument();
+    expect(screen.getByText(/Fundação visual da Etapa E02/)).toBeInTheDocument();
   });
 });
