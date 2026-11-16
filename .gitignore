@@ -1,0 +1,22 @@
+# Dependências
+node_modules/
+
+# Builds e relatórios
+dist/
+coverage/
+*.tsbuildinfo
+
+# Ambiente e segredos (nunca versionar)
+.env
+.env.*
+!.env.example
+*.pem
+serviceAccount*.json
+firebase-debug.log
+
+# Editor e sistema
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db

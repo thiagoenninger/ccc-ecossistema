@@ -1,0 +1,24 @@
+/*
+ * Estilos globais mínimos do esqueleto técnico (E01).
+ * Tokens, temas e fontes do Design System entram na E02.
+ * Cores de sistema são usadas de propósito: nenhum valor visual do DS é improvisado aqui.
+ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color-scheme: dark light;
+  background: Canvas;
+  color: CanvasText;
+  font-family: system-ui, sans-serif;
+}
