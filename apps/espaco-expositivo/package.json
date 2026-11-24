@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "content:generate": "node scripts/demo-content/generate.ts",
+    "content:check": "node scripts/demo-content/generate.ts --check"
   },
   "devDependencies": {
     "@types/react": "19.3.0",
@@ -18,7 +20,10 @@
     "vite": "8.3.8"
   },
   "dependencies": {
+    "@ccc/data-access": "0.1.0",
     "@ccc/design-tokens": "0.1.0",
+    "@ccc/types": "0.1.0",
+    "@ccc/ui": "0.1.0",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   }

@@ -1,0 +1,17 @@
+{
+  "name": "@ccc/data-access",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Acesso assíncrono ao conteúdo das exposições (repositório local em JSON; resolução de arquivos)",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@ccc/types": "0.1.0"
+  }
+}

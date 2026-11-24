@@ -18,3 +18,23 @@ export function isThemeName(value: unknown): value is ThemeName {
 export function cssVar(tokenName: string): string {
   return `var(--${tokenName})`;
 }
+
+export {
+  MOSAIC_AREA,
+  MOSAIC_GAP,
+  MOSAIC_MARGIN_BY_WIDTH,
+  MOSAIC_TEMPLATES,
+  MOSAIC_TEMPLATE_IDS,
+  SMALL_TILE_THRESHOLD,
+  heroShare,
+  templateForCount,
+} from './mosaic/templates.ts';
+export type { MosaicRect, MosaicTemplate, MosaicTemplateId } from './mosaic/templates.ts';
+export { computeMosaicLayout, viewportProfile } from './mosaic/layout.ts';
+export type {
+  LayoutTile,
+  MosaicLayout,
+  TileSizeClass,
+  ViewportProfile,
+  ViewportProfileName,
+} from './mosaic/layout.ts';

@@ -29,7 +29,7 @@ Ambiente de referência: Node 24.21.0, npm 11.19.0 (`engines`: Node `^22.22.2 ||
 
 ```text
 apps/espaco-expositivo/   # E01 (esqueleto) → MVP
-packages/                 # criados sob demanda: design-tokens (E02), types e data-access (E03), ui (E04+)
+packages/                 # criados sob demanda: design-tokens (E02, E04), types e data-access (E03), ui (E04)
 docs/design-system/       # 6 documentos oficiais (somente leitura)
 docs/arquitetura/  docs/decisoes/ (ADRs)  docs/desenvolvimento/ (roadmap, progresso, pendências, etapas)
 ```
@@ -38,16 +38,18 @@ Dependências: `apps → ui → design-tokens/types`; `apps → data-access → 
 
 ## 5. Comandos (raiz do repositório)
 
-| Comando                           | Função                                         |
-| --------------------------------- | ---------------------------------------------- |
-| `npm ci`                          | Instala exatamente o `package-lock.json`       |
-| `npm run dev:expo`                | Desenvolvimento do Espaço Expositivo           |
-| `npm run build` / `build:expo`    | Build (inclui typecheck)                       |
-| `npm test`                        | Testes (Vitest) em todos os workspaces         |
-| `npm run typecheck`               | `tsc --noEmit` em todos os workspaces          |
-| `npm run lint` / `lint:fix`       | ESLint (regras tipadas)                        |
-| `npm run format` / `format:check` | Prettier                                       |
-| `npm run check`                   | typecheck + lint + format:check + test + build |
+| Comando                                           | Função                                         |
+| ------------------------------------------------- | ---------------------------------------------- |
+| `npm ci`                                          | Instala exatamente o `package-lock.json`       |
+| `npm run dev:expo`                                | Desenvolvimento do Espaço Expositivo           |
+| `npm run build` / `build:expo`                    | Build (inclui typecheck)                       |
+| `npm test`                                        | Testes (Vitest) em todos os workspaces         |
+| `npm run typecheck`                               | `tsc --noEmit` em todos os workspaces          |
+| `npm run lint` / `lint:fix`                       | ESLint (regras tipadas)                        |
+| `npm run format` / `format:check`                 | Prettier                                       |
+| `npm run check`                                   | typecheck + lint + format:check + test + build |
+| `npm run tokens:check -w @ccc/design-tokens`      | Tokens gerados em dia                          |
+| `npm run content:check -w @ccc/espaco-expositivo` | Conteúdo de demonstração em dia                |
 
 Argumentos extras ao Vite: `npm run dev -w @ccc/espaco-expositivo -- --port 5174`.
 

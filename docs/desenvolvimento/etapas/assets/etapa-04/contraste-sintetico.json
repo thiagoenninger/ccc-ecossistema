@@ -1,0 +1,90 @@
+{
+ "generatedWith": "canvas 2D, 1920×1080 (área 1800×750), imagens de demonstração",
+ "areaWidth": 1800,
+ "images": [
+  {
+   "id": "patio-ao-anoitecer",
+   "meanLuminance": 0.008060319023082504
+  },
+  {
+   "id": "chamines-ao-entardecer",
+   "meanLuminance": 0.1464695639835303
+  },
+  {
+   "id": "praca-central-em-dia-de-festa",
+   "meanLuminance": 0.1614427253515619
+  },
+  {
+   "id": "caldeira",
+   "meanLuminance": 0.19252966521069795
+  },
+  {
+   "id": "retrato-coletivo-da-equipe",
+   "meanLuminance": 0.2210276972475286
+  },
+  {
+   "id": "regulamento-interno-da-oficina",
+   "meanLuminance": 0.4566347323285659
+  },
+  {
+   "id": "bilhete",
+   "meanLuminance": 0.5947593765087633
+  },
+  {
+   "id": "mapa-de-curvas-de-nivel-da-serra",
+   "meanLuminance": 0.660784892380708
+  },
+  {
+   "id": "fachada-caiada-ao-meio-dia",
+   "meanLuminance": 0.8426897321215071
+  }
+ ],
+ "modes": [
+  {
+   "mode": "cover",
+   "combinations": 405,
+   "worstTitle": 6.1571359578208416,
+   "worstMeta": 5.20674401458835,
+   "minP99Title": 6.233323701907169,
+   "titleBelow45": 0,
+   "metaBelow45": 0,
+   "worst": {
+    "worstLuminance": 0.09466709275320254,
+    "p99Luminance": 0.09289887727659867,
+    "titleRatio": 6.1571359578208416,
+    "p99TitleRatio": 6.233323701907169,
+    "metaRatio": 5.20674401458835,
+    "templateId": 7,
+    "tileIndex": 3,
+    "sizeClass": "small",
+    "imageId": "fachada-caiada-ao-meio-dia",
+    "mode": "cover",
+    "tileWidth": 420,
+    "tileHeight": 170
+   }
+  },
+  {
+   "mode": "contain",
+   "combinations": 405,
+   "worstTitle": 6.226348499805103,
+   "worstMeta": 5.260920977029437,
+   "minP99Title": 6.253953933855578,
+   "titleBelow45": 0,
+   "metaBelow45": 0,
+   "worst": {
+    "worstLuminance": 0.09305896284668747,
+    "p99Luminance": 0.09242748957298538,
+    "titleRatio": 6.226348499805103,
+    "p99TitleRatio": 6.253953933855578,
+    "metaRatio": 5.260920977029437,
+    "templateId": 7,
+    "tileIndex": 3,
+    "sizeClass": "small",
+    "imageId": "fachada-caiada-ao-meio-dia",
+    "mode": "contain",
+    "tileWidth": 420,
+    "tileHeight": 170
+   }
+  }
+ ]
+}

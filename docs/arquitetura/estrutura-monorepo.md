@@ -1,12 +1,14 @@
 # Estrutura do monorepo
 
-Versão 1.0 — 16/11/2026 (estado após a E01).
+Versão 1.3 — 16/11/2026 (estado após a E04).
 
 ```text
 ccc-ecossistema/
 ├── apps/
 │   └── espaco-expositivo/        # @ccc/espaco-expositivo (Vite + React)
-├── packages/                     # design-tokens (E02); demais criados sob demanda
+│       ├── public/content/       # conteúdo de demonstração (index, manifest, exposições, imagens)
+│       └── scripts/demo-content/ # gerador determinístico do conteúdo de demonstração
+├── packages/                     # design-tokens (E02), types e data-access (E03), ui (E04); demais sob demanda
 ├── docs/
 ├── CLAUDE.md
 ├── README.md
@@ -22,14 +24,14 @@ ccc-ecossistema/
 
 ## Responsabilidades
 
-| Local                          | Responsabilidade                                                                                                   |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| Raiz                           | Ferramentas compartilhadas (TypeScript, ESLint, Prettier, Vitest, Testing Library), scripts agregadores, `engines` |
-| `apps/<app>`                   | Dependências de execução (React), Vite, `tsconfig` próprio que estende a base, testes do app                       |
-| `packages/design-tokens` (E02) | JSON → CSS Variables, temas, fontes, tokens complementares, dados dos templates                                    |
-| `packages/types` (E03)         | Contratos de dados                                                                                                 |
-| `packages/data-access` (E03)   | Repositório assíncrono e `resolveAssetUrl`                                                                         |
-| `packages/ui` (E04+)           | Componentes React compartilhados, criados quando uma app precisar                                                  |
+| Local                               | Responsabilidade                                                                                                   |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Raiz                                | Ferramentas compartilhadas (TypeScript, ESLint, Prettier, Vitest, Testing Library), scripts agregadores, `engines` |
+| `apps/<app>`                        | Dependências de execução (React), Vite, `tsconfig` próprio que estende a base, testes do app                       |
+| `packages/design-tokens` (E02, E04) | JSON → CSS Variables, temas, fontes, tokens complementares, dados e layout dos templates de mosaico (E04)          |
+| `packages/types` (E03)              | Contratos de dados e validadores (sem dependências)                                                                |
+| `packages/data-access` (E03)        | `ExhibitionRepository`, repositório local em JSON e `resolveAssetUrl`                                              |
+| `packages/ui` (E04)                 | Componentes React compartilhados: `Mosaic`, `ArtworkTile`, `Caption`, estados de conteúdo                          |
 
 ## Regras
 
