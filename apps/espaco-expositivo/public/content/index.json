@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "defaultExhibitionId": "cubatao-em-imagens",
+  "exhibitions": [
+    {
+      "id": "cubatao-em-imagens",
+      "title": "Cubatão em imagens",
+      "path": "cubatao-em-imagens/exhibition.json"
+    },
+    {
+      "id": "memorias-de-oficina",
+      "title": "Memórias de oficina",
+      "path": "memorias-de-oficina/exhibition.json"
+    }
+  ]
+}

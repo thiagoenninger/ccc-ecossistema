@@ -212,6 +212,8 @@ export function generateTokens(official: OfficialTokens): GeneratedTokens {
     ]);
   }
   rootDecls.push(
+    ['--tile-compact-title-size', px(complementary.tileCompact.titleSize)],
+    ['--tile-compact-title-line', px(complementary.tileCompact.titleLine)],
     ['--focus-ring-width', px(complementary.focusRing.width)],
     ['--focus-ring-inner-color', complementary.focusRing.innerColor],
     ['--focus-ring-outer-color', `var(--color-${complementary.focusRing.outerColor})`],

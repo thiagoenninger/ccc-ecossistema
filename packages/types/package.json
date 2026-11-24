@@ -1,0 +1,14 @@
+{
+  "name": "@ccc/types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Contratos de dados e validadores do ecossistema digital do Centro Cultural de Cubatão",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  }
+}

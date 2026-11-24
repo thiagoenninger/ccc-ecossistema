@@ -13,6 +13,11 @@
     "textBlockHeight": { "hero": 142, "medium": 74, "small": 66 },
     "metaOpacity": 0.88
   },
+  "tileCompact": {
+    "source": "Handoff Técnico §5.5 (1366×768: título ≥ 20 px). Valor mínimo para legendas não heróis em tablets; decisão C-06, ADR-014",
+    "titleSize": 20,
+    "titleLine": 24
+  },
   "focusRing": {
     "source": "Handoff Técnico §3.3 (anel duplo: interno rgba(8,10,11,.85) 3 px + externo turquesa-400 3 px)",
     "innerColor": "rgb(8 10 11 / 0.85)",

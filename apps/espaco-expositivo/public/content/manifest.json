@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026.11.16-demo.1",
+  "generatedAt": "2026-11-16T00:00:00Z",
+  "assets": [
+    {
+      "id": "cubatao-em-imagens/capa",
+      "path": "cubatao-em-imagens/images/capa.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20340,
+      "sha256": "d33407a0b00d884f59c8c5cfd3e5bfa9474c0b6ce8901abe6faad6b4e44fe600",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/retrato-autoria-a",
+      "path": "cubatao-em-imagens/images/retrato-autoria-a.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20631,
+      "sha256": "8fbc19d1b6cdfebb4d831107d73991a94249af8b68b278f5e667cf75af8b3d8f",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/retrato-autoria-c",
+      "path": "cubatao-em-imagens/images/retrato-autoria-c.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20501,
+      "sha256": "b2371d46331cdb55e67c95ddbd9ae6f10ddaf7c3600a0258fbdad978b798717a",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/operarios-no-turno-da-manha",
+      "path": "cubatao-em-imagens/images/operarios-no-turno-da-manha.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20998,
+      "sha256": "20ae84e591524a41b8a61c707ccd27bde8b983ec530fcf7a284a9f916adce58d",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/praca-central-em-dia-de-festa",
+      "path": "cubatao-em-imagens/images/praca-central-em-dia-de-festa.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20305,
+      "sha256": "6d882eb55a9fa5d971e5750b6e57a5faebdda11b5b90455f214dffadf1e73fc0",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/planta-da-vila-e-dos-primeiros-bairros",
+      "path": "cubatao-em-imagens/images/planta-da-vila-e-dos-primeiros-bairros.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 24023,
+      "sha256": "264241589d52b7c3b17a45d389e06b878fabdee896281519e75eadc43c107c83",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/fachada-caiada-ao-meio-dia",
+      "path": "cubatao-em-imagens/images/fachada-caiada-ao-meio-dia.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 8820,
+      "sha256": "e5de9b3a09ec400e636ee521d2a37f84d48f0a37fa20b53e09f0c900410b13a3",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/vista-da-serra-a-partir-do-patio",
+      "path": "cubatao-em-imagens/images/vista-da-serra-a-partir-do-patio.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20519,
+      "sha256": "b5537387b95dcf4994d4be3b46bc394c09347af9577c1ea1acd159d56fb17dc2",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/carta-de-administracao-sobre-a-vila",
+      "path": "cubatao-em-imagens/images/carta-de-administracao-sobre-a-vila.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 12308,
+      "sha256": "33c87fd441afa7cfea2695f8d4d83fdf334a671d892df62fe4e53abcd277b2e1",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/patio-ao-anoitecer",
+      "path": "cubatao-em-imagens/images/patio-ao-anoitecer.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 19803,
+      "sha256": "a3e0d3e7300577f17a843778d0057309fd14009cbc594f88800afc31d36e9634",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/detalhe-de-ferramenta-de-oficina",
+      "path": "cubatao-em-imagens/images/detalhe-de-ferramenta-de-oficina.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20441,
+      "sha256": "bae9e8718932d785ae17ec4c96f0161fd1b140665f5147a718c02fb25bfcd58b",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/chamines-ao-entardecer",
+      "path": "cubatao-em-imagens/images/chamines-ao-entardecer.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20348,
+      "sha256": "0d91ee23f67de7e6e6f6a5768f09bf59a0cb6d6b93f0a2d365fa1b4dfd97950a",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/livro-caixa-pagina-14",
+      "path": "cubatao-em-imagens/images/livro-caixa-pagina-14.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21377,
+      "sha256": "401ff5ac6f5e04fa0eb8c06dbdd5efb9bb80663f0fc63412501c3821b146eb51",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/panorama-da-vila-operaria",
+      "path": "cubatao-em-imagens/images/panorama-da-vila-operaria.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20129,
+      "sha256": "77a51ccfa0dd7f04ee0277ae55227cd6d4681327b4a168b6e6ca1418905fe328",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/cartaz-de-convocacao",
+      "path": "cubatao-em-imagens/images/cartaz-de-convocacao.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 12029,
+      "sha256": "d9b814f3e6191dba1c82a032fea757fb6405eab7c5a9f1f6cb1aaf9e01eedd58",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/rua-estreita-depois-da-chuva",
+      "path": "cubatao-em-imagens/images/rua-estreita-depois-da-chuva.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20119,
+      "sha256": "d10f6da29f97f3fc7e3d5f38f8ef390920c1ef4a139df88ea701df022a096f25",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/mapa-de-curvas-de-nivel-da-serra",
+      "path": "cubatao-em-imagens/images/mapa-de-curvas-de-nivel-da-serra.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 23872,
+      "sha256": "28f5e5a15b7533d0b1a67b5f074b5e22437eb58f10196ab597f919360e333a89",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/turno-da-tarde",
+      "path": "cubatao-em-imagens/images/turno-da-tarde.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21346,
+      "sha256": "49e3b00cde667f0202103fd58fe651cfc3f14a5be3d0bb0aface1c7306fe4e69",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/recibo-de-pagamento",
+      "path": "cubatao-em-imagens/images/recibo-de-pagamento.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21205,
+      "sha256": "dfc6e09e6d4e9bad14e62ff81ea3e675c015e63a2c3662f9ea898072e0ce8bdf",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/nevoeiro-sobre-a-serra",
+      "path": "cubatao-em-imagens/images/nevoeiro-sobre-a-serra.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21065,
+      "sha256": "385b9b0efe686d86f89110591e9ecd8a3c20be651c78844a6d4beed72a74085c",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/ata-da-reuniao",
+      "path": "cubatao-em-imagens/images/ata-da-reuniao.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 12265,
+      "sha256": "0721923ec286ed620aed318055ffa64218e6e13f748050c7c6cd9c37837e4ad5",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/caldeira",
+      "path": "cubatao-em-imagens/images/caldeira.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20926,
+      "sha256": "9443909d118de5d2c59d23018a9bf8eca891eaad2ac81ee32147e5be6ff1a870",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/carta-de-arruamento",
+      "path": "cubatao-em-imagens/images/carta-de-arruamento.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 24167,
+      "sha256": "72742d754beb83d9a40c6121f6ca869aa064364bb9352f8d788803c2829c6bca",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/retrato-coletivo-da-equipe",
+      "path": "cubatao-em-imagens/images/retrato-coletivo-da-equipe.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21104,
+      "sha256": "e32da6a7fa420b90715ebf6a27d97b13b714a9d2c8eb1fe1da2685c2a51b8779",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/planilha-de-turnos",
+      "path": "cubatao-em-imagens/images/planilha-de-turnos.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21059,
+      "sha256": "dd1fbd0d99c3519d50a6b5dcfb09afbed672c1129dcc0f6e92d1d2bac3b35276",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/bilhete",
+      "path": "cubatao-em-imagens/images/bilhete.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 11949,
+      "sha256": "ee727b7b3d65ee447f07652f5baa09eee7090b665ab3e2f9ad73d473d05439f9",
+      "published": true
+    },
+    {
+      "id": "cubatao-em-imagens/regulamento-interno-da-oficina",
+      "path": "cubatao-em-imagens/images/regulamento-interno-da-oficina.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 12082,
+      "sha256": "03ee5ffe60478fee8b282544b29db8a8cfe979776f58963ebf8534f864d040e6",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/capa",
+      "path": "memorias-de-oficina/images/capa.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20878,
+      "sha256": "45ef40df261c6a9d3969f7a89a05fe3e61e8f5d537e58053c5d5142e9d96ebb9",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/retrato-autoria-d",
+      "path": "memorias-de-oficina/images/retrato-autoria-d.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20081,
+      "sha256": "1827cb27da0f4b4eb7c6c70b13556dfaabf6d490efe2f4e8ad04048399d1da38",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/bancada-ao-fim-do-dia",
+      "path": "memorias-de-oficina/images/bancada-ao-fim-do-dia.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21088,
+      "sha256": "94bde350e6d3e2af2206d06a8e862a76c3fa2a1960f7517b0e1e4a41013b5ccc",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/ferramentas-penduradas",
+      "path": "memorias-de-oficina/images/ferramentas-penduradas.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21390,
+      "sha256": "8402fddd5de1237c8ca127bd58c85bfec12a435efb244bf3c0141abddcd8986b",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/planta-da-oficina",
+      "path": "memorias-de-oficina/images/planta-da-oficina.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 24085,
+      "sha256": "f174d453600f00e8ec0a906ad5c5891447a19c818984825770035fe00932f055",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/telhado-e-chamine",
+      "path": "memorias-de-oficina/images/telhado-e-chamine.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 20214,
+      "sha256": "7a8f542516ddcab1a8023d5ea684f14b4c75b6e7b60b7d65652e69136ddce260",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/ordem-de-servico",
+      "path": "memorias-de-oficina/images/ordem-de-servico.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 12261,
+      "sha256": "21fa77b53b44b440c7a5d6620dfb3cc20d7a618ce3b6258ace1a12ad16730b92",
+      "published": true
+    },
+    {
+      "id": "memorias-de-oficina/registro-de-pecas",
+      "path": "memorias-de-oficina/images/registro-de-pecas.svg",
+      "mimeType": "image/svg+xml",
+      "bytes": 21815,
+      "sha256": "d31a0f42ca2e7f2522a7fc19f5ec3470c6331670637c9fc91fc52e94830b6201",
+      "published": true
+    }
+  ]
+}

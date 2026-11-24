@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "memorias-de-oficina",
+  "title": "Memórias de oficina",
+  "subtitle": "Exposição de demonstração",
+  "summary": "Segunda exposição de demonstração, com poucas obras. Texto curatorial a definir.",
+  "demo": true,
+  "cover": {
+    "assetId": "memorias-de-oficina/capa",
+    "width": 1600,
+    "height": 900,
+    "alt": "Imagem procedural de demonstração: silhuetas de chaminés e colinas, em tons de sépia.",
+    "fit": "cover"
+  },
+  "about": {
+    "paragraphs": [
+      "Segundo texto curatorial de demonstração. Esta exposição existe para provar que o aplicativo troca de exposição apenas com dados, sem alterar código."
+    ],
+    "credits": [
+      {
+        "role": "Curadoria",
+        "name": "a definir"
+      },
+      {
+        "role": "Realização",
+        "name": "a definir"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "fotografias",
+      "label": "Fotografias"
+    },
+    {
+      "id": "documentos",
+      "label": "Documentos"
+    },
+    {
+      "id": "mapas",
+      "label": "Mapas"
+    }
+  ],
+  "people": [
+    {
+      "id": "autoria-d",
+      "name": "Autoria de demonstração D",
+      "biography": "Biografia curta de demonstração para a segunda exposição.",
+      "portrait": {
+        "assetId": "memorias-de-oficina/retrato-autoria-d",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Imagem procedural de demonstração usada como retrato."
+      }
+    },
+    {
+      "id": "acervo-institucional",
+      "name": "Acervo institucional (demonstração)",
+      "biography": "Origem institucional fictícia, usada nos documentos de demonstração.",
+      "portrait": null
+    }
+  ],
+  "artworks": [
+    {
+      "id": "bancada-ao-fim-do-dia",
+      "kind": "photo",
+      "title": "Bancada ao fim do dia",
+      "categoryId": "fotografias",
+      "personIds": [
+        "autoria-d"
+      ],
+      "description": "Descrição de demonstração. O texto longo rola nesta coluna, sem diminuir a fonte, e a imagem permanece visível.\n\nSegundo parágrafo de demonstração, usado para verificar a quebra de linhas, o espaçamento entre parágrafos e a rolagem da coluna de leitura. Nenhuma informação deste texto é histórica: ele existe apenas para testar a interface.\n\nTerceiro parágrafo de demonstração. A coluna de leitura da ficha deve manter cerca de 62 caracteres por linha, corpo de 24 px e entrelinha de 40 px, sem reduzir a fonte quando o texto é longo e sem cobrir a imagem.\n\nQuarto parágrafo de demonstração, mais curto.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/bancada-ao-fim-do-dia",
+        "width": 1600,
+        "height": 1200,
+        "alt": "Imagem procedural de demonstração: silhuetas de chaminés e colinas, em tons de sépia.",
+        "fit": "cover"
+      },
+      "playback": null,
+      "order": 0,
+      "published": true
+    },
+    {
+      "id": "ferramentas-penduradas",
+      "kind": "photo",
+      "title": "Ferramentas penduradas",
+      "categoryId": "fotografias",
+      "personIds": [
+        "autoria-d"
+      ],
+      "description": "Descrição de demonstração. Imagem procedural criada para testar o mosaico, a legenda e a ficha.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/ferramentas-penduradas",
+        "width": 1200,
+        "height": 1600,
+        "alt": "Imagem procedural de demonstração: silhuetas de chaminés e colinas, em tons de cinza, com névoa.",
+        "fit": "cover"
+      },
+      "playback": null,
+      "order": 1,
+      "published": true
+    },
+    {
+      "id": "planta-da-oficina",
+      "kind": "map",
+      "title": "Planta da oficina",
+      "categoryId": "mapas",
+      "personIds": [
+        "acervo-institucional"
+      ],
+      "description": "Descrição de demonstração. Imagem procedural criada para testar o mosaico, a legenda e a ficha.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/planta-da-oficina",
+        "width": 1500,
+        "height": 1000,
+        "alt": "Imagem procedural de demonstração: mapa com curvas de nível, rio e quadras, em azul de planta técnica.",
+        "fit": "contain"
+      },
+      "playback": null,
+      "order": 2,
+      "published": true
+    },
+    {
+      "id": "telhado-e-chamine",
+      "kind": "photo",
+      "title": "Telhado e chaminé",
+      "categoryId": "fotografias",
+      "personIds": [
+        "autoria-d"
+      ],
+      "description": "Descrição de demonstração. Imagem procedural criada para testar o mosaico, a legenda e a ficha.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/telhado-e-chamine",
+        "width": 1200,
+        "height": 1200,
+        "alt": "Imagem procedural de demonstração: silhuetas de chaminés e colinas, em tons de azul.",
+        "fit": "cover"
+      },
+      "playback": null,
+      "order": 3,
+      "published": true
+    },
+    {
+      "id": "ordem-de-servico",
+      "kind": "document",
+      "title": "Ordem de serviço",
+      "categoryId": "documentos",
+      "personIds": [
+        "acervo-institucional"
+      ],
+      "description": "Descrição de demonstração. Imagem procedural criada para testar o mosaico, a legenda e a ficha.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/ordem-de-servico",
+        "width": 1131,
+        "height": 1600,
+        "alt": "Imagem procedural de demonstração: página de texto manuscrito, sobre papel claro.",
+        "fit": "contain"
+      },
+      "playback": null,
+      "order": 4,
+      "published": true
+    },
+    {
+      "id": "registro-de-pecas",
+      "kind": "document",
+      "title": "Registro de peças",
+      "categoryId": "documentos",
+      "personIds": [
+        "acervo-institucional"
+      ],
+      "description": "Descrição de demonstração. Imagem procedural criada para testar o mosaico, a legenda e a ficha.",
+      "dateLabel": "Data a definir",
+      "sourceLabel": "Fonte a definir",
+      "creditLabel": "Imagem procedural de demonstração",
+      "image": {
+        "assetId": "memorias-de-oficina/registro-de-pecas",
+        "width": 1600,
+        "height": 1131,
+        "alt": "Imagem procedural de demonstração: página de livro-caixa com colunas, sobre papel envelhecido.",
+        "fit": "contain"
+      },
+      "playback": null,
+      "order": 5,
+      "published": true
+    }
+  ]
+}

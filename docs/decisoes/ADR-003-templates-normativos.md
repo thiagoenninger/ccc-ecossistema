@@ -1,6 +1,6 @@
 # ADR-003 — Templates de mosaico: coordenadas são normativas
 
-- **Status:** Aceita (parcial: itens C-05, C-06 e balanceamento de 10+ obras pendentes)
+- **Status:** Aceita (C-05 e C-06 resolvidas na ADR-014; balanceamento de 10+ obras pendente para a E05)
 - **Data:** 16/11/2026
 - **Dependências:** E04
 
@@ -27,4 +27,4 @@ Preserva a fidelidade aos templates aprovados e evita recálculos que descaracte
 
 ## Consequências
 
-Ainda pendentes (decidir na E04/E05): slots editoriais por template (C-05), adaptação a 1366×768 e 1280×800 (C-06) e balanceamento de conjuntos com 10 ou mais obras. A regra 28–45 % vira orientação para eventuais novos templates.
+Resolvidos na ADR-014 (E04): slots editoriais por template (C-05) e adaptação a 1366×768 e 1280×800 (C-06). Ainda pendente (E05): balanceamento de conjuntos com 10 ou mais obras. A regra 28–45 % vira orientação para eventuais novos templates.

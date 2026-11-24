@@ -311,6 +311,8 @@
   --caption-gradient-height-hero: calc(var(--caption-block-height-hero) + var(--caption-gradient-base-padding) + var(--caption-gradient-plateau-margin) + var(--caption-gradient-fade-length));
   --caption-gradient-height-medium: calc(var(--caption-block-height-medium) + var(--caption-gradient-base-padding) + var(--caption-gradient-plateau-margin) + var(--caption-gradient-fade-length));
   --caption-gradient-height-small: calc(var(--caption-block-height-small) + var(--caption-gradient-base-padding) + var(--caption-gradient-plateau-margin) + var(--caption-gradient-fade-length));
+  --tile-compact-title-size: 20px;
+  --tile-compact-title-line: 24px;
   --focus-ring-width: 3px;
   --focus-ring-inner-color: rgb(8 10 11 / 0.85);
   --focus-ring-outer-color: var(--color-turquesa-400);

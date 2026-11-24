@@ -24,19 +24,26 @@ Abra o endereço exibido (normalmente `http://localhost:5173/`).
 
 ## Comandos
 
-| Comando                           | Função                                           |
-| --------------------------------- | ------------------------------------------------ |
-| `npm ci`                          | Instala exatamente o `package-lock.json`         |
-| `npm run dev:expo`                | Servidor de desenvolvimento do Espaço Expositivo |
-| `npm run build` / `build:expo`    | Build de produção (executa typecheck antes)      |
-| `npm run preview:expo`            | Serve o build gerado                             |
-| `npm test`                        | Testes (Vitest) em todos os workspaces           |
-| `npm run typecheck`               | Verificação de tipos em todos os workspaces      |
-| `npm run lint` / `lint:fix`       | ESLint com regras tipadas                        |
-| `npm run format` / `format:check` | Prettier                                         |
-| `npm run check`                   | typecheck + lint + format:check + testes + build |
+| Comando                                              | Função                                           |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| `npm ci`                                             | Instala exatamente o `package-lock.json`         |
+| `npm run dev:expo`                                   | Servidor de desenvolvimento do Espaço Expositivo |
+| `npm run build` / `build:expo`                       | Build de produção (executa typecheck antes)      |
+| `npm run preview:expo`                               | Serve o build gerado                             |
+| `npm test`                                           | Testes (Vitest) em todos os workspaces           |
+| `npm run typecheck`                                  | Verificação de tipos em todos os workspaces      |
+| `npm run lint` / `lint:fix`                          | ESLint com regras tipadas                        |
+| `npm run format` / `format:check`                    | Prettier                                         |
+| `npm run check`                                      | typecheck + lint + format:check + testes + build |
+| `npm run tokens:check -w @ccc/design-tokens`         | Confere os tokens gerados                        |
+| `npm run content:generate -w @ccc/espaco-expositivo` | Regenera o conteúdo de demonstração              |
+| `npm run content:check -w @ccc/espaco-expositivo`    | Confere o conteúdo de demonstração               |
 
 Argumentos extras ao Vite: `npm run dev -w @ccc/espaco-expositivo -- --port 5174`.
+
+Testes de um único pacote: `npm run test -w @ccc/ui` (também `@ccc/design-tokens`, `@ccc/types`, `@ccc/data-access`, `@ccc/espaco-expositivo`).
+
+Páginas de desenvolvimento (só no servidor de desenvolvimento; fora do build): `/tokens.html`, `/content.html` e `/mosaic.html`.
 
 ## Estrutura
 

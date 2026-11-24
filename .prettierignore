@@ -5,3 +5,4 @@ package-lock.json
 docs/design-system
 docs/desenvolvimento/etapas
 packages/design-tokens/src/generated
+apps/espaco-expositivo/public/content
